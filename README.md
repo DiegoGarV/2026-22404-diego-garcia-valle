@@ -66,7 +66,7 @@ Aunque este trabajo se centra en el sistema de interacción adaptativa, el repos
 
 4. Abrir el proyecto con Unity `6000.3.9f1`. En la primera apertura, Unity descargará las dependencias declaradas en `src/Packages/manifest.json` y generará los archivos de caché necesarios. Esperar hasta que finalice la importación y compilación de los scripts.
 
-5. No es necesario configurar variables de entorno, servicios externos ni bases de datos para ejecutar la aplicación. El archivo `src/.env.example` documenta que no se requieren variables de entorno.
+5. No es necesario configurar variables de entorno, servicios externos ni bases de datos para ejecutar la aplicación, por lo que ningún `.env` es necesario.
 
 ## Ejecución
 
@@ -115,7 +115,6 @@ src/                           Proyecto Unity completo
   Assets/                      Escenas, scripts y recursos
   Packages/                    Dependencias de Unity
   ProjectSettings/             Configuración del proyecto
-  .env.example                 Variables de entorno (no requeridas)
   .gitignore                   Exclusiones de Unity
 .gitattributes                 Configuración de Git LFS
 README.md                      Descripción e instrucciones del proyecto
